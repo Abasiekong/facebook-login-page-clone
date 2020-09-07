@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+
+body {
+    background-color: #e9ebee;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Body */
+
+
+.pageBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin: 3rem;
+} 
+
+.textConnect {
+    width: 408px;
+    color: #344c81;
+    font-size: 1.134rem;
+    font-weight: 800;
+    padding: .8rem;
+}
+
+/* Header */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b5998;
+    align-self: center;
+    padding: 5px;
+}
+
+.logoText {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.labelLogin-form {
+    display: block;
+    margin-bottom: .2rem;
+    color: #ffffff;
+}
+
+.logIn-form {
+    display: flex;
+    align-self: center;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+/* Input  */
+
+.input-wrapper {
+    margin-right: .2rem;
+}
+
+.input-wrapper input[type="text"] {
+    padding: 2px;
+    width: 95%;
+}
+
+.input-wrapper input[type="password"] {
+    padding: 2px;
+    width: 95%;
+}
+
+.logIn {
+    background-color: #5373b9;
+    color: #ffffff;
+    align-self: center;
+    padding: 3px;
+    border: none;
+    margin-top: .4rem;
+    border: 1px solid #233252;
+}
+
+.form-area {
+    padding: 1.5rem;
+}
+
+input {
+    margin-bottom: .9rem;
+}
+
+.inputText-wrapper input[type="text"] {
+    width: 23%;
+    padding: 10px;
+    margin-right: .3rem;
+}
+            
+.mobile input[type="text"] {
+    width: 55%;
+    padding: 10px;
+}
+            
+.password input[type="password"] {
+    width: 55%;
+    padding: 10px; 
+}
+            
+label {
+    display: block;
+}
+
+.dateId {
+    color: #90949c;
+    font-weight: 600;
+}
+
+.genderId {
+    color: #90949c;
+    font-weight: 600;
+}
+
+
+/* Section: form-area */
+
+/* title & subtitle  */
+
+.big-text {
+    color: #333333;
+    margin-bottom: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 200;
+    padding-bottom: .5rem;
+}
+
+/* End */
+
+/* Terms & Condition */
+
+.TsCs {
+    width: 278px;
+    height: 40px;
+    margin-bottom: 2rem;
+    font-size: .8rem;
+    
+}
+
+/* End */
+
+/* Sign up button */
+
+.bigGreenButton {
+    padding: .4rem;
+    width: 8rem;
+    background-color: #69a74e;
+    border-radius: 3px;
+}
+
+/* End*/
+
+.createPage {
+    display: block;
+    margin-top: 1.3rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+/* Section: footer */
+
+footer {
+    padding: 1.5rem;
+    font-size: 12px;
+}
+
+.langSection {
+    display: flex;
+    border-bottom: 1px solid silver;
+}
+
+.langSection li {
+    padding: 1rem;
+}
+
+.footer-links {
+    display: flex;    
+    width: 100%;
+    font-size: 12px;
+    padding-top: .5rem;
+}
+
+.footer-links li {
+    padding: .5rem;
+}
+
+.footer-text {
+    font-size: .7rem;
+    color: #737373;
+    padding: .5rem;
+}
